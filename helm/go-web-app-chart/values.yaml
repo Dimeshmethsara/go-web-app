@@ -3,7 +3,8 @@ replicaCount: 1
 image:
   repository: methsara/go-web-app
   pullPolicy: IfNotPresent
-  tag: "v1"
+  # Overrides the image tag whose default is the chart appVersion.
+  tag: "25914288427"
 
 imagePullSecrets: []
 nameOverride: ""
