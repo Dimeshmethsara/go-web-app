@@ -4,7 +4,7 @@ image:
   repository: methsara/go-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "25917963952"
+  tag: "25959739578"
 
 imagePullSecrets: []
 nameOverride: ""
